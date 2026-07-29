@@ -1,5 +1,37 @@
 # Changelog
 
+## 0.4.0 — 2026-07-29
+
+Milestone 4: work, review, time, and reports — plus release hardening.
+
+- **Work items and a human review queue.** Create work items, link sessions and
+  commits to them, and accept / request revision / reject an AI result. A
+  review-ready session moves its item to *review*, never to *done*: only an
+  explicit human acceptance completes work. Decisions are append-only audit rows.
+- **Human vs AI time, kept separate.** Human active, AI execution, overlap, and
+  autonomous intervals are computed from merged UTC intervals and labeled
+  distinctly. Leverage reads N/A rather than infinity when the denominator is
+  unavailable, and AI execution is never presented as human developer hours.
+- **Deterministic daily report.** Generated locally with no model involved, and
+  every claim carries the event ids behind it. Overnight work uses a printed,
+  configurable window.
+- **Project health.** A versioned rule artifact with six dimensions, evidence and
+  thresholds on every result. Unknown dimensions never score as failures; fewer
+  than three available reads *Not Calculated*.
+- **Export and deletion.** Versioned JSON/CSV/Markdown export envelopes, and a
+  two-step deletion that first shows an inventory of exactly what it will remove.
+- New MCP tools and `pstudio work | review | time | health | report`.
+
+### Security and packaging hardening
+
+- Internal test commands no longer register in production installs — previously
+  another installed extension could have invoked them to read your cross-project
+  timeline or bypass the adoption gate.
+- Agent-home and import settings are read from user scope only, so a cloned
+  repository can no longer repoint the reader at a network path.
+- Packaging now always rebuilds, and the extension identifier is
+  `lynxdi.project-studio`.
+
 ## 0.3.0 — 2026-07-29
 
 Milestone 3: every agent provider.

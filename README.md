@@ -182,7 +182,8 @@ directly. It speaks stdio, runs on your machine, and reads the same stable views
 | `provider_health` | Per-provider import health: enabled state, last run, errors, counters |
 | `db_info` | Database path, schema version, view catalog version, and row counts |
 
-Work-item, review-queue, time, health, and daily-report tools are **coming in the next release**.
+These cover work items, the review queue, human-vs-AI time, project health, and the daily report
+as well.
 
 ## Privacy
 
@@ -295,10 +296,32 @@ Work-item, report, and export commands arrive in the next release.
 | `projectStudio.geminiHome` | `""` | Override the Gemini CLI data directory; empty uses `~/.gemini` |
 | `projectStudio.genericLocalImportEnabled` | `true` | Import generic local-agent JSONL event drops from Project Studio's own spool directory |
 
+### Work, review, and reports
+
+Assign work to a human or an AI contributor, link the sessions and commits that did it, and then
+decide: accept, request revision, or reject. A review-ready agent result moves its work item to
+*review* — never to *done*. Only an explicit human acceptance completes work, and every decision is
+an append-only audit row.
+
+![Work & Review queue with pending AI results](https://raw.githubusercontent.com/LynxDI/project-studio/main/media/review.png)
+
+The daily report is generated locally with no model involved, and every claim carries the event ids
+behind it — so any number in it can be traced back to the evidence that produced it.
+
+![Deterministic daily report with cited evidence ids](https://raw.githubusercontent.com/LynxDI/project-studio/main/media/report.png)
+
+Human active time, AI execution, their overlap, and autonomous AI time are computed from merged
+intervals and labeled separately. AI execution is never presented as human developer hours, and
+leverage reads `N/A` rather than infinity when the denominator is unavailable.
+
 ## Roadmap
 
-**Next release:** work items with a human review queue, human-vs-AI time separation, deterministic
-daily reports with cited evidence, and basic project health — plus the MCP tools that expose them.
+**Shipped in 0.4.0:** work items with a human review queue, human-vs-AI time separation,
+deterministic daily reports with cited evidence, project health, and export/deletion — plus the MCP
+tools that expose them.
+
+**Next:** a GitHub read provider (pull requests, reviews, checks), weekly and monthly reports, and
+optional local-model runtimes.
 Placeholders in the UI say so honestly rather than showing empty charts.
 
 ## Support
