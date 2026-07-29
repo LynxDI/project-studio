@@ -8,6 +8,15 @@ Project Studio is a local-first VS Code extension — the Human + AI Project Ope
 It reads the evidence your work already produces, keeps it in one SQLite database on your
 machine, and never sends it anywhere.
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/LynxDI.project-studio?label=Marketplace&color=0e639c)](https://marketplace.visualstudio.com/items?itemName=LynxDI.project-studio)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/LynxDI.project-studio?color=0e639c)](https://marketplace.visualstudio.com/items?itemName=LynxDI.project-studio)
+
+**[Install from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LynxDI.project-studio)** — or from the command line:
+
+```bash
+code --install-extension LynxDI.project-studio
+```
+
 **CYOD × BYOM** — Connect Your Own Data × Bring Your Own Model. A Lynx DI Studio.
 
 ---
