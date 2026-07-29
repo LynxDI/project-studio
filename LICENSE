@@ -1,0 +1,57 @@
+Lynx Project Studio — Proprietary Software License
+
+Copyright (c) 2026 Lynx DI. All rights reserved.
+
+Lynx Project Studio (the "Software"), including the packaged Visual Studio Code
+extension, its bundled Model Context Protocol server, its command-line
+interface, its source code, and its accompanying documentation, is proprietary and
+confidential to Lynx DI. The Software is licensed, not sold.
+
+NO RIGHTS GRANTED BY DEFAULT. No license, right, title, or interest in the
+Software is granted to you by implication, estoppel, course of dealing, or
+otherwise, except for the limited permitted use expressly stated below or as
+granted to you in a separate written agreement signed by Lynx DI. All rights not
+expressly granted are reserved by Lynx DI.
+
+PERMITTED USE. Subject to your compliance with this license, Lynx DI grants you
+a personal, non-exclusive, non-transferable, non-sublicensable, revocable
+license to install and use the packaged extension as obtained from the Visual
+Studio Marketplace or another distribution channel authorized in writing by
+Lynx DI, on machines you own or control, for your personal or internal business
+purposes. This permission covers use of the packaged extension only. It conveys
+no rights to the Software's source code and no right to copy (other than
+ordinary installation and backup copies), modify, adapt, translate, merge,
+create derivative works from, decompile, disassemble, or otherwise reverse
+engineer the Software except to the extent that applicable law expressly
+prohibits such a restriction; and no right to publish, distribute,
+redistribute, resell, rent, lease, lend, host as a service, sublicense, or
+otherwise make the Software available to any third party. You may not remove,
+obscure, or alter any proprietary notice contained in the Software.
+
+THIRD-PARTY COMPONENTS. The packaged artifacts include third-party open-source
+components that remain licensed under their own terms. Those components and
+their licenses are identified in the NOTICE file distributed with the Software.
+Nothing in this license limits, supersedes, or otherwise affects any right you
+have under those third-party licenses with respect to those components
+themselves.
+
+TERMINATION. This license terminates automatically if you breach any of its
+terms. On termination you must stop using the Software and remove all installed
+copies. Provisions concerning proprietary rights, warranty disclaimer, and
+limitation of liability survive termination.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+ACCURACY, AND NONINFRINGEMENT. LYNX DI DOES NOT WARRANT THAT THE SOFTWARE WILL
+BE UNINTERRUPTED, ERROR-FREE, OR THAT ANY MEASUREMENT, ESTIMATE, COST FIGURE, OR
+REPORT IT PRODUCES IS ACCURATE, COMPLETE, OR FIT FOR ANY PARTICULAR PURPOSE. TO
+THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LYNX DI BE
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY — INCLUDING ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES,
+LOSS OF PROFITS, LOSS OF BUSINESS, OR LOSS OR CORRUPTION OF DATA — WHETHER IN AN
+ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+
+For licensing enquiries, contact Lynx DI.

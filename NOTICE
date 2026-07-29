@@ -1,0 +1,36 @@
+Lynx Project Studio — Third-Party Notices
+
+Project Studio is proprietary software (see LICENSE). Its packaged artifacts
+bundle the third-party open-source components listed below, which remain
+licensed under their own terms. This list was audited against the shipped
+bundles themselves, not only against declared dependencies.
+
+Ships in all three build artifacts (VS Code extension, MCP server, CLI). Note
+that the Marketplace VSIX distributes the extension and the MCP server only;
+the CLI is a developer surface built from the same sources and is listed here
+for completeness:
+
+- zod — MIT — https://github.com/colinhacks/zod
+
+Ships in the bundled MCP server only:
+
+- @modelcontextprotocol/sdk — MIT — https://github.com/modelcontextprotocol/typescript-sdk
+- ajv — MIT — https://github.com/ajv-validator/ajv
+- ajv-formats — MIT — https://github.com/ajv-validator/ajv-formats
+- fast-deep-equal — MIT — https://github.com/epoberezkin/fast-deep-equal
+- json-schema-traverse — MIT — https://github.com/epoberezkin/json-schema-traverse
+- zod-to-json-schema — ISC — https://github.com/StefanTerdell/zod-to-json-schema
+- fast-uri — BSD-3-Clause — https://github.com/fastify/fast-uri
+
+No copyleft-licensed component (GPL, AGPL, LGPL, MPL, EPL, SSPL, or similar) is
+bundled in any shipped artifact. Every bundled component above is permissive
+(MIT, ISC, or BSD-3-Clause) and imposes no source-disclosure obligation on
+Project Studio.
+
+Build- and test-time tooling is not distributed. Compilers, bundlers, test
+runners, packaging tools, and their transitive dependencies are used to produce
+the artifacts but are not part of them; the shipped artifacts contain only
+Project Studio's own code plus the components listed above.
+
+Full license texts for each component are available at the upstream URLs above
+and within each component's own distribution.
